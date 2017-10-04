@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SmartCare</string>
+    <string-array name="situacao" >
+        <item>Atendimento</item>
+        <item>Observação</item>
+        <item>Grave</item>
+        <item>Terminal</item>
+    </string-array>
+
+    <string-array name="faixa" >
+        <item>Todas as idades</item>
+        <item>Criança</item>
+        <item>Jovem ou Adulto</item>
+        <item>Idoso</item>
+    </string-array>
+
+    <string name="title_activity_consulta">Pacientes</string>
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_search">Procurar</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_adv">Opções Avançadas</string>
+</resources>

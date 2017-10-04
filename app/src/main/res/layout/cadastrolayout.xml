@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#4EA0F2">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro de Pacientes"
+
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:textColorHint="#ccc" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:nestedScrollingEnabled="false"
+            android:stretchColumns="1"
+            android:visibility="visible">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nomeTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nome"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <EditText
+                    android:id="@+id/nomeET"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+
+                    android:hint="Nome"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#A5C3E1" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/idadeTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Idade"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <EditText
+                    android:id="@+id/idadeET"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:ems="10"
+                    android:hint="Idade"
+                    android:inputType="number"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#A5C3E1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/telefoneTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+
+                    android:text="Telefone"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <EditText
+                    android:id="@+id/telefoneET"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Telefone"
+                    android:inputType="phone"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#A5C3E1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/doencaTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doença"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <EditText
+                    android:id="@+id/doencaET"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+
+                    android:ems="10"
+                    android:hint="Doença"
+                    android:inputType="text"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#A5C3E1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/leitoTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Leito"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <EditText
+                    android:id="@+id/leitoET"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+
+                    android:ems="10"
+                    android:hint="Leito"
+                    android:inputType="number"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#A5C3E1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/situacaoTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textColor="#fff"
+                    android:textColorHint="#ccc" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:entries="@array/situacao"
+                    android:backgroundTint="#fff"
+                    android:spinnerMode="dropdown" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

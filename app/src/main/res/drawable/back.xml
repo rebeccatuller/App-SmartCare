@@ -1,0 +1,6 @@
+<bitmap
+    android:src="@drawable/background"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    />
+
